@@ -1,0 +1,23 @@
+.detail_txt{
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.detail_txt .list_left ul{
+    padding: 2% 5% 2% 0;
+}
+.detail_txt .list_left ul li{
+    padding: 1% 0 2% 0;
+    font-size: 1vw;
+}
+.detail_txt .list_left ul li:hover{
+    transition: 1s;
+    text-shadow: 0px 5px 10px #000;
+}
+.detail_txt .list_left ul li:nth-child(5n+5){
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 2%;
+}
+.detail_txt .list_left ul li span{
+    float:right;
+}

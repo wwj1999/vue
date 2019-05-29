@@ -1,0 +1,125 @@
+/* *号上传数据慢，最好就你用到什么标签打上去最好 */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #F3F3F3;
+}
+/* 头部 */
+.header{
+    width: 100%;
+    overflow: hidden;
+}
+.header .logo{
+    width: 70%;
+    margin: 0 auto;
+}
+.header .logo img{
+    width: 55%;
+    float: left;
+}
+/* 搜索 */
+.header .logo .search{
+    margin-top: 6.5%;
+    width: 30%;
+    float: right;
+}
+.header .logo .search input{
+    padding-left: 3%;
+    background-color: #F3F3F3;
+    border:1px solid rgb(202, 199, 199);
+    width: 70%;
+    height: 40px;
+}
+.header .logo .search button{
+    color: white;
+    border: none;
+    background-color: #3698D9;
+    margin-left: -2%;
+    width: 26%;
+    height: 42px;
+}
+/* 标题目录 */
+.header .nav{
+    width: 100%;
+    overflow: hidden;
+    background-color: #3698D9;
+}
+.header .nav ul{
+    margin: 0 auto;
+    width: 70%;
+    list-style: none;
+}
+.header .nav ul li{
+    font-size: 1.039vw;
+    cursor: pointer;
+    color: white;
+    border-right: 1px solid  rgb(202, 199, 199);
+    float: left;
+    padding: 1%;
+}
+.header .nav ul li a{
+    color: #fff;
+}
+
+/* 标题点击样式 */
+.header .nav ul .nav_a{
+    transition: .5s;
+    background-color: #2E88C4;
+}
+/* 标题的共同体 */
+.list_left{
+    width: 60%;
+    float: left;
+}
+
+.list_right{
+    float: right;
+    width: 40%;
+    overflow: hidden;
+}
+
+.list_left h3{
+    width: 90%;
+    padding: 2%;
+    border-bottom:1px solid #ddd;
+}
+
+.list_right h3{
+    padding: 3% 2% 3% 2%;
+    border-bottom:1px solid #ddd;
+}
+
+
+
+/* 最终的联系方式和地址内容 */
+.footer{
+    margin-top: 3%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #3598DB;
+}
+.footer_txt{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+.footer_txt ul{
+    padding: 3% 0 3% 0;
+}
+.footer_txt  ul li {
+    color: white;
+}
+.footer_txt>span{
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+    color: white;
+}

@@ -1,0 +1,39 @@
+.news_txt{
+    width: 70%;
+    margin:  0 auto;
+}
+.news_txt .list_left span{
+    display: block;
+    padding: 2%;
+    font-size: 1.5vw;
+}
+.news_txt .list_left>p{
+    width: 95%;
+    line-height: 1.5vw;
+    font-size: 1vw;
+}
+.news_txt .list_left .share_it{
+    width: 95%;
+    padding-bottom: 1%;
+    line-height: 2vw;
+    border-bottom: 1px solid #ddd;
+}
+.news_txt .list_left .share_it a{
+    float: left;
+    font-size: 1vw;
+    padding-right: 1%;
+    border-right: 1px solid #ddd;
+}
+.news_txt .list_left .share_it>p{
+    margin: 0 2% 0 2%;
+    float: left;
+}
+.news_txt .list_left .share_it .share p{
+    margin: 0 2% 0 2%;
+    float: left;
+}
+news_txt .list_left .share_it .share .bdsharebuttonbox{
+    float: right;
+}
+
+    

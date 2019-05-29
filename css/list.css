@@ -1,0 +1,39 @@
+.toplist{
+    margin-bottom: 2%;
+}
+.toplist li:before{
+    content: counter(listxh);
+    background: #444;
+    padding: 2px 5px;
+    color: #fff;
+    margin-right: 5px;
+}
+.toplist li{
+    counter-increment: listxh;
+    display: inline-block;
+    width: 100%;
+    vertical-align: bottom;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: 16px;
+    -webkit-transition:text-shadow 1s linear;
+    -moz-transition:text-shadow 1s linear;
+    -ms-transition:text-shadow 1s linear;
+    -o-transition:text-shadow 1s linear;
+    transition:text-shadow 1s linear;
+}
+.toplist li:first-child:before,.toplist li:nth-child(2):before,.toplist li:nth-child(3):before{
+    background: #3598DC;
+}
+.toplist li:last-child:before{
+    padding: 2px;
+    font-size: 14px;
+}
+.toplist a{
+    color: #444444;
+    text-decoration: none;
+}
+.toplist li:hover{
+    text-shadow: 1px 4px 4px #000;
+}

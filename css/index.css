@@ -1,0 +1,253 @@
+/* 中间的内容 */
+.center{
+    width: 70%;
+    overflow: hidden;
+    margin: 0 auto 5% auto;
+}
+/* 左边内容 */
+.center .article{
+    float: left;
+    width: 65%;
+    overflow: hidden;
+    margin: 1% auto;
+}
+/* 轮播 */
+.center .article .crousel{
+    position: relative;
+    width: 93%;
+    overflow: hidden;
+    box-shadow: 5px 10px 10px rgb(107, 106, 106);
+}
+.center .article .crousel>ul{
+    width: 3858px;
+}
+.center .article .crousel>ul li{
+    position: relative;
+    width: 643px;
+    height: 20vw;
+    float: left;
+}
+.center .article .crousel>ul li span{
+    width: 100%;
+    position: absolute;
+    bottom: 6%;
+    left: 0;
+    margin-left: 5%;
+    color: #fff;
+    font-size: 0.7vw;
+}
+.center .article .crousel img{
+    position: relative;
+    width: 100%;
+    height: 20vw;
+}
+/* 轮播按键的样式 */
+.center .article .crousel .article_list{
+    position: absolute;
+    bottom: 5%;
+    right: -9%;
+    width: 42%;
+}
+.center .article .crousel .article_list ul li{
+    background-image: url("../images/silde-nav.png");
+    background-repeat: no-repeat;
+    margin-right: 1%;
+    border-radius: 100px;
+    padding: 1% 6% 1% 3%;
+    color: white;
+    float: left;
+}
+/* 轮播按键样式 */
+.center .article .crousel .article_list ul .a {
+    background-position: 1px -24px;
+}
+
+/* 标题共同的有 。。。。。 */
+.news_lm{
+    border-top: 2px solid blue;
+    height: 3vw;
+    line-height: 3vw;
+    width: 100%;
+    background-color: #E8E8E7;
+}
+.news_lm h3{
+    color: rgb(110, 113, 116);
+    margin-left: 3%;
+}
+
+/* 新闻 */
+.center .article .news{
+    margin-top: 2%;
+    width: 93%;
+}
+.center .article .news .new_nr{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.center .article .news .new_nr ul li{
+    margin-top: 1%;
+    position: relative;
+}
+.center .article .news .new_nr ul li img{
+    /* 属性设置元素的垂直对齐方式。 */
+    /* vertical-align: top; */
+    width: 60%;
+}
+/* 新闻的内容 */
+.center .article .news .new_nr ul li .tip{
+    width:36.7%;
+    height: 85%;
+    position:absolute;
+    padding:14px;
+    background-color:#3498DB;
+    left: 59%;
+    top: 0%;
+}
+.center .article .news .new_nr ul li .tip:before{
+  position: absolute;
+  left: -7.4%;
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-right: 20px solid #3498DB;
+  border-bottom: 20px solid transparent;
+}
+.center .article .news .new_nr ul li .tip span{
+    padding-bottom: 5%; 
+    display: block;
+    font-size: 0.9vw;
+    color: #fff;
+    border-bottom: 1px solid #CFD5D9;
+}
+.center .article .news .new_nr ul li .tip p{
+    padding-top: 5%; 
+    font-size: 0.8vw;
+    color: #CFD5D9;
+}
+/* 新闻的活动 */
+.center .article .left_bottom{
+    margin-top: 1%;
+    width: 93%;
+}
+.center .article .left_bottom .img_top{
+    overflow: hidden;
+}
+.center .article .left_bottom .img_top img{
+    margin: 1% 1% 0 0;
+    width: 24%;
+    float: left;
+}
+.center .article .left_bottom .article_txt{
+    float: left;
+    width: 70%;
+    margin-top: 2%;
+}
+.center .article .left_bottom .article_txt ol li{
+    overflow: hidden;
+    margin-top: 3%;
+    line-height: 180%;
+    font-size: 1vw;
+    color: #747474;
+}
+.center .article .left_bottom .article_txt ol li a:hover{
+    text-shadow: 1px 4px 4px #000;
+    transition: 1s;
+    color: #000;
+}
+.center .article .left_bottom .article_txt span{
+    margin-right: 2%;
+    color: #fff;
+    float: left;
+    display: block;
+    width: 8%;
+    text-align: center;
+    background-color: #434343;
+}
+.center .article .left_bottom .img_left{
+    margin-top: 3%;
+}
+.center .article .left_bottom .img_left img{
+    width: 30%;
+}
+/* 右侧边 */
+.center .aside{
+    margin-top: 1%;
+    float: right;
+    width: 35%;
+}
+/* 博文 */
+.center .aside .blog_post .aside_post{
+    padding-bottom: 2%;
+    overflow: hidden;
+    text-align: center;
+    border-bottom: 1px solid rgb(189, 187, 187);
+}
+.center .aside .blog_post .aside_post img{
+    width: 49%;
+    margin-top: 2%;
+}
+.center .aside .blog_post .aside_post span{
+    float: left;
+    display: block;
+    font-size: 0.8vw;
+    width: 50%;
+}
+/* 博文和招聘的样式 */
+.aside .post_txt{
+    padding-bottom: 1.5%;
+}
+.aside .post_txt li{
+    white-space: nowrap;/*不跳行*/
+    color: #747474;
+    overflow: hidden;
+    margin-top: 3%;
+    line-height: 123%;
+    font-size: 0.9vw;
+    text-overflow: ellipsis;/*超出就变成。。。*/
+}
+.aside .post_txt li a:hover{
+    color: #000;
+    text-shadow: 1px 4px 4px #000;
+    transition: 1s;
+}
+/* .post_txt li:hover{
+    box-shadow: 10px 10px 5px rgb(189, 187, 187);
+} */
+.aside .post_txt span{
+    margin-right: 2%;
+    color: #fff;
+    float: left;
+    display: block;
+    width: 6%;
+    text-align: center;
+    background-color:#3498DB;
+}
+.aside .contact img{
+    width: 100%;
+    margin-bottom: 4%;
+}
+/* 会员的介绍 */
+.aside .member ul li{
+    overflow: hidden;
+    padding-top: 5%;
+    clear: both;
+}
+.aside .member ul li .zigongxi:hover{
+    overflow: hidden;
+    transition: 1s;
+    border:1px solid #3598db;
+    padding: 10px 0;
+}
+.aside .member ul li img{
+    float: left;
+}
+.aside .member ul li .zigongxi p{
+    overflow: hidden;
+    width: 53%;
+    height: 2.7vw;
+    float: left;
+    display: block;
+    font-size: 0.7vw;
+}
